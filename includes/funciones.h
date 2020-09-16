@@ -7,4 +7,5 @@
 float compara(float x,float y );
 float factorial(int n);
 float negacion(float z);
+float complejos (int r, int i);
 #endif //UNTITLED1_FUNCIONES_H
