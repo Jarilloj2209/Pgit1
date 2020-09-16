@@ -6,4 +6,5 @@
 #define UNTITLED1_FUNCIONES_H
 float compara(float x,float y );
 float factorial(int n);
+float negacion(float z);
 #endif //UNTITLED1_FUNCIONES_H

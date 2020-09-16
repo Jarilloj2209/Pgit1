@@ -27,3 +27,7 @@ float factorial (int n){
         std::cout<<fac<<std::endl;
     }
 }
+
+float negacion (float z){
+    std::cout<<(z*-1)<<std::endl;
+}
