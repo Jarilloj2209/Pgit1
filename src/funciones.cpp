@@ -1,9 +1,7 @@
 //
 // Created by jarillo on 15/09/20.
 //
-//#include "/home/jarillo/Escritori…s/s5/untitled1/includes/funciones.h"
-#include "C:\Users\aldos\CLionProjects\Pgit1\includes\funciones.h"
-#include <iostream>
+#include "/home/jarillo/Escritori…s/s5/untitled1/includes/funciones.h"
 
 float compara(float x,float y ){
     if (x>y){
@@ -26,4 +24,18 @@ float factorial (int n){
         }
         std::cout<<fac<<std::endl;
     }
+}
+
+float negacion (float z){
+    std::cout<<(z*-1)<<std::endl;
+}
+
+void complejos (){
+    int r,i;
+    std::cout<<"ingresa la parte real del numero"<<std::endl;
+    std::cin>> r;
+    std::cout<<"ingresa la parte imaginaria del numero"<<std::endl;
+    std::cin>> i;
+    std::cout<<"el numero complejo es "<<r<<" "<<i<<"i"<<std::endl;
+
 }
