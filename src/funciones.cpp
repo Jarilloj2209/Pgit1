@@ -1,7 +1,9 @@
 //
 // Created by jarillo on 15/09/20.
 //
-#include "/home/jarillo/Escritori…s/s5/untitled1/includes/funciones.h"
+//#include "/home/jarillo/Escritori…s/s5/untitled1/includes/funciones.h"
+#include "C:\Users\aldos\CLionProjects\Pgit1\includes\funciones.h"
+#include <iostream>
 
 float compara(float x,float y ){
     if (x>y){
