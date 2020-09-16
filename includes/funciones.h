@@ -5,4 +5,5 @@
 #ifndef UNTITLED1_FUNCIONES_H
 #define UNTITLED1_FUNCIONES_H
 float compara(float x,float y );
+float factorial(int n);
 #endif //UNTITLED1_FUNCIONES_H
