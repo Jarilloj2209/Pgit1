@@ -4,8 +4,9 @@
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
-    compara(5,6);
+    compara_numero(5,6);
     factorial(6);
+    complejo();
 
     return 0;
 }

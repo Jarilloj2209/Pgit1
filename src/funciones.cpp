@@ -5,7 +5,7 @@
 #include "C:\Users\aldos\CLionProjects\Pgit1\includes\funciones.h"
 #include <iostream>
 
-float compara(float x,float y ){
+float compara_numero(float x,float y ){
     if (x>y){
         return -1;
     }
@@ -26,4 +26,14 @@ float factorial (int n){
         }
         std::cout<<fac<<std::endl;
     }
+}
+
+void complejos (){
+    int r,i;
+    std::cout<<"ingresa la parte real del numero"<<std::endl;
+    std::cin>> r;
+    std::cout<<"ingresa la parte imaginaria del numero"<<std::endl;
+    std::cin>> i;
+    std::cout<<"el numero complejo es "<<r<<" "<<i<<"i"<<std::endl;
+
 }
