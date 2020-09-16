@@ -7,7 +7,6 @@ int main() {
     compara(5,6);
     factorial(6);
     negacion(9);
-    complejo();
-
+    complejos();
     return 0;
 }
